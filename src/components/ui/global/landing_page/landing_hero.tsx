@@ -15,6 +15,6 @@ const LandingHero = (props: Props) => {
 
     </section>
   )
-}
+// }
 
 export default LandingHero
