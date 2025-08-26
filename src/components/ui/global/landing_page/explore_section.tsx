@@ -2,6 +2,7 @@ import { Button } from "../../button";
 
 type Props = {};
 
+
 const ExploreSection = (props:Props)=>{
 
     return(
