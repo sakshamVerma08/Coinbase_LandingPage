@@ -24,7 +24,7 @@ const Navbar = (props:Props)=>{
             </div>
 
             <div id="right-nav" className="w-1/5 flex justify-end items-center">
-                <Button className="cursor-pointer">Signup/Signin</Button>
+                <Button className="cursor-pointer">SignUp / SignIn</Button>
             </div>
         </div>
     );
