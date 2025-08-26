@@ -1,9 +1,9 @@
 import { Button } from "../../button";
 
-type Props = {};
+// type Props = {};
 
 
-const ExploreSection = (props:Props)=>{
+const ExploreSection = ()=>{
 
     return(
 

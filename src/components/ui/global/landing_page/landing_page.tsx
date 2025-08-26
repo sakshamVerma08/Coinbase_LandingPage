@@ -1,9 +1,9 @@
 import ExploreSection from "./explore_section";
 import LandingHero from "./landing_hero";
 
-type Props = {};
+// type Props = {};
 
-const LandingPage = (props:Props)=>{
+const LandingPage = ()=>{
 
     return (
         <>

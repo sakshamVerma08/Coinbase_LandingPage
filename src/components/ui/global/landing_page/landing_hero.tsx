@@ -3,9 +3,9 @@ import { Input } from '../../input';
 import { Button } from '../../button';
 import Image from 'next/image';
 
-type Props = {}
+// type Props = {}
 
-const HeroSection = (props: Props) => {
+const HeroSection = () => {
   return (
     <section id = "hero-section" className='min-h-1/2 h-1/2 min-w-screen flex flex-col items-center justify-around p-10'>
 
