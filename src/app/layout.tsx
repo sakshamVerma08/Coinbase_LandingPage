@@ -4,7 +4,6 @@ import "./globals.css";
 import { Sidebar, SidebarProvider, SidebarTrigger } from "import/components/ui/sidebar";
 import { AppSidebar } from "import/components/ui/app-sidebar";
 import { ThemeProvider } from "import/components/ui/theme-provider";
-import Navbar from "import/components/ui/global/navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,8 +31,8 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
       >
-        <Navbar/>
-        {children}
+
+        
       </body>
     </html>
   );
