@@ -3,12 +3,10 @@
 
 @custom-variant dark (&:is(.dark *));
 
-@font-face{
-
-  font-family:"MyFont1";
-  src: url("/public/fonts/a_BDyAm2xz.woff2");
-  font-weight:normal;
-  font-style:normal;
+@theme {
+  --font-font1: "font1", sans-serif;
+  --font-font2: "font2", sans-serif;
+  --font-font3: "font3", sans-serif;
 }
 
 @layer base {
@@ -34,7 +32,6 @@
     --sidebar-ring: oklch(0.439 0 0);
   }
 }
-
 
 @theme inline {
   --color-background: var(--background);
