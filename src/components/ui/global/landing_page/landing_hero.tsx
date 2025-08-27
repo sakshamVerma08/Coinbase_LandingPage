@@ -25,7 +25,7 @@ const HeroSection = () => {
 
             <div className='w-full'>
 
-              <Input height = {20} type = "email" placeholder='Enter your email' className = "border border-slate-600 rounded-sm p-8 text-2xl mb-5 w-4/4"/>
+              <Input height = {20} type = "email" placeholder='Enter your email' className = "border border-slate-500 rounded-sm p-8 text-2xl mb-5 w-4/4"/>
               <Button type = "submit" className='bg-blue-600 text-white hover:bg-blue-700 rounded-full p-7 '>Get Notified</Button>
             </div>
 
