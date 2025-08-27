@@ -1,13 +1,13 @@
 import React from 'react'
-import { Input } from '../../input';
-import { Button } from '../../button';
+import { Input } from '../../ui/input';
+import { Button } from '../../ui/button';
 import Image from 'next/image';
 
 // type Props = {}
 
 const HeroSection = () => {
   return (
-    <section id = "hero-section" className='min-h-1/2 h-1/2 min-w-screen flex flex-col items-center justify-around p-10'>
+    <section id = "hero-section" className='min-h-1/2 h-1/2 min-w-screen flex flex-col items-center justify-around p-10 mb-13'>
 
         <div id="namasteIndia">
 
