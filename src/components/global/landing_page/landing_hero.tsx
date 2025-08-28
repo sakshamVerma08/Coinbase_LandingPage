@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 const HeroSection = () => {
   return (
-    <section id = "hero-section" className='min-h-1/2 h-1/2 min-w-screen flex flex-col items-center justify-around p-10 mb-13'>
+    <section id = "hero-section" className='min-h-1/2 h-1/2 min-w-screen flex flex-col items-center sm:items-start justify-around p-10 mb-13 bg-pink-300'>
 
         <div id="namasteIndia">
 
@@ -15,7 +15,7 @@ const HeroSection = () => {
               <h2 className='text-5xl font-medium text-left mb-5 leading-12 font-font1 '>Namaste, India!<br/>
                   Meet Coinbase 🇮🇳</h2>
 
-              <aside className='text-gray-500 mb-3 font-normal font-font3'>Coinbase is the world's safest and most trusted <br/>
+              <aside className='text-gray-500 mb-3 font-normal font-font3 '>Coinbase is the world's safest and most trusted <br/>
                   platform to buy, sell and manage crypto.</aside>
 
               <aside className='text-gray-500 mb-5 font-font3'>We're launching soon! Add your email and you'll be the<br/>
