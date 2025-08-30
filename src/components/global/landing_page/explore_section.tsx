@@ -11,19 +11,19 @@ const ExploreSection = (): JSX.Element=>{
 
     return(
 
-        <section id = "exploreSection" className="mb-13">
+        <section id = "exploreSection" className="mb-13 md:grid md:grid-cols-2 md:gap-3">
 
-            <div className="w-full text-left pl-7">
+            <div className="w-full text-left pl-7 md:flex md:flex-col md:items-lefts md:justify-center md:text-balance">
 
-                <h3 className="text-[30px] font-font1 font-medium leading-9 tracking-tighter">Explore crypto like Bitcoin,<br/>
+                <h3 className="text-[30px] font-font1 font-medium leading-9 tracking-tighter md:text-4xl md:leading-12 ">Explore crypto like Bitcoin,<br/>
                     Ethereum, and Dogecoin</h3>
 
-                <aside className="font-font2 mt-8">Simply and securely buy, sell, and manage<br/>
+                <aside className="font-font2 mt-8 md:text-3xl">Simply and securely buy, sell, and manage<br/>
                         hundreds of cryptocurrencies.</aside>
 
 
                 <Button className="cursor-pointer bg-blue-600 text-white hover:bg-blue-700 font-font1 rounded-full 
-                text-[17px] mt-7 pl-30 pr-30 pt-7 pb-7 font-semibold ">See more assets</Button>
+                text-[17px] mt-7 pl-30 pr-30 pt-7 pb-7 font-semibold md:w-1/2">See more assets</Button>
             </div>
 
             <div className=" w-full">
@@ -38,16 +38,15 @@ const ExploreSection = (): JSX.Element=>{
 
                         <TabsTrigger value = "tradable" className="cursor-pointer rounded-full 
                         data-[state=active]:bg-slate-700 bg-slate-200 mr-10  data-[state=active]:text-white
-                            p-3">
+                            p-3 md:py-2 md:font-semibold md:px-4">
                                 Tradable
-                            {/* <Button className="cursor-pointer rounded-full bg-slate-800 focus:bg-slate-700 mr-10 
-                            p-5">Tradable</Button> */}
+                            
                         </TabsTrigger>
 
                         <TabsTrigger value = "top-gainers" className="cursor-pointer rounded-full 
-                        data-[state=active]:bg-slate-700 bg-slate-200 p-3 data-[state=active]:text-white">
+                        data-[state=active]:bg-slate-700 bg-slate-200 p-3 data-[state=active]:text-white md:py-2 md:font-semibold md:px-4">
                                     Top gainers
-                            {/* <Button className="cursor-pointer rounded-full bg-slate-800 focus:bg-slate-700 p-5">Top gainers</Button> */}
+                            
 
                         </TabsTrigger>
                     </TabsList>
