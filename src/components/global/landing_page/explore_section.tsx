@@ -2,11 +2,12 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@radix-ui/react-tabs";
 import { Button } from "../../ui/button";
 import TradableGrid from "../tradable-grid";
 import TopGainersGrid from "../top-gainers-grid";
+import { JSX } from "react";
 
 // type Props = {};
 
 
-const ExploreSection = ()=>{
+const ExploreSection = (): JSX.Element=>{
 
     return(
 
