@@ -2,9 +2,9 @@ import { AlignJustify, Hamburger } from 'lucide-react';
 import Image from 'next/image';
 import React from 'react'
 
-type Props = {}
+// type Props = {}
 
-const Navbar = (props: Props) => {
+const Navbar = (props) => {
 
 
   return (
